@@ -1,10 +1,9 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: "fd-root",
+  template: "<fd-list></fd-list><hr/><tomstag></tomstag>"
 })
 export class AppComponent {
-  title = 'app works!';
+  title = "Food Data App"
 }
